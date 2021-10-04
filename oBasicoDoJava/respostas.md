@@ -1,0 +1,11 @@
+# O básico do Java
+
+1. A linguagem Java teve seu desenvolvimento iniciado em 1991 pela Sun Microsystems, mais especificamente por um time chamado Green Team, formado pelos engenheiros James Gosling, Mike Sheridan e Patrick Naughton. Inicialmente a linguagem foi projetada para ser utilizada em dispositivos eletrônicos (como televisão interativa). Ela buscava ser:
+* Simples, orientada a objetos e familiar
+* Robusta e segura.
+* Rodar em qualquer sistema operacional (ser portável e neutra em relação à arquitetura)
+* Ter alta performance.
+* Ser interpretada, dinâmica e trabalhar com múltiplos núcleos.<br></br>
+A linguagem foi originalmente nomeada Oak e tinha como objetivo ter uma notação semelhante ao C/C++. Apesar dos seus motivos originais, a empresa percebeu que poderia utilizar a linguagem para o mercado de Internet, que estava crescendo bastante na época. Seu primeiro lançamento foi feito em 1996 (Java 1.0) e seu slogan era "Escreva uma vez, rode em qualquer lugar", pois a linguagem poderia ser executada em qualquer plataforma que suportasse Java, sem necessidade de ser compilada novamente. Desde então, a linguagem teve grandes evoluções, estando atualmente na versão 17 e sendo uma das linguagens mais populares do mundo.<br></br>
+2. Quando escrevemos um código em linguagem Java, a extensão dos arquivos é _.java_, que é um código não compilado e não é possível executar ele. Para executá-lo, é necessário compilar ele para bytecode (arquivos com extensão _.class_), que é um arquivo executável na máquina virtual do Java. Desta forma, qualquer sistema operacional que possua a máquina virtual instalada, será capaz de executar os códigos Java compilados.</br>O agente responsável por compilar o código fonte (_.java_) em bytecode (_.class_) é o Kit de Desenvolvimento Java (JDK), que além disso, possui o Ambiente de Execução Java (JRE). O JRE provê os requisitos mínimos para executar o programa, como as bibliotecas básicas do Java (por exemplo o pacote lang, que possui a classe String) e a Máquina Virtual do Java (JVM). Por fim, a JVM é responsável por interpretar e executar o bytecode em qualquer sistema. Note que o bytecode executado na JVM não precisa ter sido escrito originalmente em Java, mas pode ter sido escrito em qualquer outra linguagem que seja compilada em bytecode (como Scala, Kotlin etc).</br></br>
+3.
